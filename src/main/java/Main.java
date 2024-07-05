@@ -5,7 +5,12 @@ public class Main {
         MyClass myClass3 = new MyClass();
 
         myClass1.incrementInstanceCount();
+
         myClass2.incrementInstanceCount();
+        myClass2.incrementInstanceCount();
+
+        myClass3.incrementInstanceCount();
+        myClass3.incrementInstanceCount();
         myClass3.incrementInstanceCount();
 
         MyClass.incrementTotalCount();
@@ -14,12 +19,16 @@ public class Main {
 
         System.out.println(myClass1.toString());
         MyClass.incrementTotalCount();
+        MyClass.incrementTotalCount();
 
         System.out.println(myClass2);
+        MyClass.incrementTotalCount();
+        MyClass.incrementTotalCount();
         MyClass.incrementTotalCount();
 
         System.out.println(myClass3.toString());
 
+        // Bonus task
         System.out.println(Calculator.add(2,2));
         System.out.println(Calculator.subtraction(2,2));
         System.out.println(Calculator.multiplication(2,2));
