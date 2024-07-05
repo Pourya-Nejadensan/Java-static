@@ -19,5 +19,7 @@ public class Main {
         MyClass.incrementTotalCount();
 
         System.out.println(myClass3.toString());
+
+        System.out.println(Calculator.add(2,2));
     }
 }
