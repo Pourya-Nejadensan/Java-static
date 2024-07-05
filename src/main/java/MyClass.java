@@ -9,4 +9,12 @@ public class MyClass {
     public void incrementInstanceCount(){
         instanceCount++;
     }
+
+    @Override
+    public String toString() {
+        return "MyClass{ " +
+                "instanceCount= " + instanceCount + "  " +
+                "totalCount= " + totalCount + "  " +
+                '}';
+    }
 }
