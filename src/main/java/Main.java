@@ -21,5 +21,8 @@ public class Main {
         System.out.println(myClass3.toString());
 
         System.out.println(Calculator.add(2,2));
+        System.out.println(Calculator.subtraction(2,2));
+        System.out.println(Calculator.multiplication(2,2));
+        System.out.println(Calculator.division(2,2));
     }
 }
